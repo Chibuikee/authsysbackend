@@ -23,6 +23,8 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMP_DIR = os.path.join(BASE_DIR, "authentication/templates")
 
+PORT = int(os.environ.get("PORT", 8000))
+
 
 def get_env_or_fail(key):
     """raises an exception for missing env variables"""
@@ -58,9 +60,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://authsysdemo.vercel.app/",
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
 ALLOWED_HOSTS = [
     "authsysbackend-cfqp.onrender.com",
