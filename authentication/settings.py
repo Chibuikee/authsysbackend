@@ -69,7 +69,8 @@ ALLOWED_HOSTS = [
     "authsysbackend-cfqp.onrender.com",
     "localhost",
     "127.0.0.1",
-    "https://authsysdemo.vercel.app",
+    "authsysdemo.vercel.app",
+    # "https://authsysdemo.vercel.app",
 ]
 
 

@@ -157,8 +157,8 @@ class AuthMailEngine:
                 subject=self.subject,
                 body=self.message,
                 from_email=self.email_from,
-                to=["sopewenike@gmail.com"],
-                # to=self.recipient_list,
+                # to=["sopewenike@gmail.com"],
+                to=self.recipient_list,
             )
             email.content_subtype = "html"
 
