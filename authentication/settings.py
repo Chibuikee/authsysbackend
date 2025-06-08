@@ -62,7 +62,12 @@ CORS_ALLOWED_ORIGINS = [
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "authsysbackend-cfqp.onrender.com",
+    "localhost",
+    "127.0.0.1",
+    "https://authsysdemo.vercel.app/",
+]
 
 
 # Application definition
