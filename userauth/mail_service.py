@@ -83,7 +83,8 @@ class AuthMailEngine:
             # Construct confirmation URL
             # http://localhost:3000/auth/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
             # full_url = os.path.join(BASE_URL, "confirm-account")
-            full_url = f"{BASE_URL}/verify-email"
+            full_url = f"{"https://authsysdemo.vercel.app"}/verifyemail"
+            # full_url = f"{BASE_URL}/verify-email"
             token_url = f"{full_url}/?token={token}"
 
             logger.info(f"Sending confirmation email to {self.User.email}")
