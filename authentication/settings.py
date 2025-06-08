@@ -54,7 +54,7 @@ FRONT_END_URL = get_env_or_fail("FRONT_END_URL")
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-n32u0kqnut&ickbpm5j$0s_91or*h43w(nxs6t50x3-b3iwiqv"
 # Allow all origins (for development only - not production!)
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 # OR configure specific allowed origins
 CORS_ALLOWED_ORIGINS = [
