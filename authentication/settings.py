@@ -60,7 +60,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://authsysdemo.vercel.app/",
+    "https://authsysdemo.vercel.app",
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
@@ -69,7 +69,7 @@ ALLOWED_HOSTS = [
     "authsysbackend-cfqp.onrender.com",
     "localhost",
     "127.0.0.1",
-    "https://authsysdemo.vercel.app/",
+    "https://authsysdemo.vercel.app",
 ]
 
 
