@@ -107,7 +107,6 @@ class AuthMailEngine:
             logger.error(
                 f"Error preparing confirmation email for {self.User.email}: {str(e)}"
             )
-            # Re-raise to be handled by the caller
             raise
 
     @staticmethod
