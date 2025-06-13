@@ -65,7 +65,7 @@ CORS_ALLOWED_ORIGINS = [
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
+ALLOWED_HOSTS = ["13.53.36.102",
     "authsysbackend-cfqp.onrender.com",
     "localhost",
     "127.0.0.1",
