@@ -72,7 +72,8 @@ ALLOWED_HOSTS = ["13.53.36.102",
     "authsysdemo.vercel.app",
     # "https://authsysdemo.vercel.app",
 ]
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_TLS = True
 
 # Application definition
 
