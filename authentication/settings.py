@@ -66,6 +66,7 @@ CORS_ALLOWED_ORIGINS = [
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "www.bytealpha.online",
     "bytealpha.online",
     "13.53.36.102",
     "authsysbackend-cfqp.onrender.com",
