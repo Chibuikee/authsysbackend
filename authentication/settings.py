@@ -63,7 +63,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://authsysdemo.vercel.app",
 ]
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
 ALLOWED_HOSTS = [
     "www.bytealpha.online",
@@ -75,7 +76,7 @@ ALLOWED_HOSTS = [
     "authsysdemo.vercel.app",
     # "https://authsysdemo.vercel.app",
 ]
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 USE_TLS = True
 
 # Application definition
